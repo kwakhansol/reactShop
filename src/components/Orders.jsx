@@ -20,8 +20,8 @@ export default function Orders(){
         return(
             <aside>
                 <div className="empty">
-                    <div className="title">you dont'have any orders</div>
-                    <div className="sub-title">Click on a + to add an order</div>
+                    <div className="title">장바구니가 비어있어요</div>
+                    <div className="sub-title">+버튼을 눌러 상품을 추가해보세요</div>
                 </div>
             </aside>
         );  
@@ -57,7 +57,7 @@ export default function Orders(){
                 <div className="total">
                     <hr />
                     <div className="item">
-                        <div className="content">Total</div>
+                        <div className="content">total</div>
                         <div className="action">
                             <div className="price">${totalPrice}</div>
                         </div>
@@ -65,7 +65,7 @@ export default function Orders(){
                             <i className="icon icon--delete"/>
                         </button>
                     </div>
-                    <button className="btn btn--secondary" style={{ width:"100%", marginTop:10}}>Checkout</button>
+                    <button className="btn btn--secondary" style={{ width:"100%", marginTop:10}}>결제하기</button>
                 </div>
            </div>
         </aside>
